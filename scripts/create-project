@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker exec -it swoft-microservice bash -c "rm -rf /app/* && rm -rf /app/.github && composer create-project swoft/swoft /app"
